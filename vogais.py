@@ -22,6 +22,6 @@ def contar_vogais(texto: str) -> int:
     """
     quantidade = 0
     for letra in texto:
-        if letra in "aeiou":
+        if letra.lower() in "aeiou":
             quantidade = quantidade + 1
     return quantidade
