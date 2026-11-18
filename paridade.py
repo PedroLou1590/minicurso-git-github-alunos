@@ -20,5 +20,9 @@ def eh_par(numero: int) -> bool:
         >>> eh_par(-2)
         True
     """
-    resposta = numero % 2 != 0
-    return resposta
+    return numero % 2 == 0
+
+
+resposta = eh_par(5)
+resposta2 = eh_par(4)
+print(resposta, resposta2)

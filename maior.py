@@ -22,6 +22,10 @@ def maior_de_tres(primeiro: int, segundo: int, terceiro: int) -> int:
         >>> maior_de_tres(5, 5, 5)
         5
     """
-    if primeiro > segundo:
+    if primeiro >= segundo and primeiro >= terceiro:
         return primeiro
-    return segundo
+    elif segundo > primeiro and segundo >= terceiro:
+        return segundo
+    else:
+        return terceiro
+        
