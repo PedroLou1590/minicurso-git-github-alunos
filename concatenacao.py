@@ -19,5 +19,5 @@ def concatenar(primeiro: str, segundo: str) -> str:
         >>> concatenar("", "Python")
         'Python'
     """
-    resultado = segundo + primeiro
+    resultado = primeiro + segundo  
     return resultado
