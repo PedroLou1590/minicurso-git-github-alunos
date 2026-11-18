@@ -19,5 +19,5 @@ def soma(primeiro: int | float, segundo: int | float) -> int | float:
         >>> soma(0, 0)
         0
     """
-    resultado = primeiro - segundo
+    resultado = primeiro + segundo
     return resultado
