@@ -32,5 +32,5 @@ def calcular_media(valores: list[int | float]) -> float:
     for valor in valores:
         total = total + valor
 
-    resultado = total // len(valores)
+    resultado = total / len(valores)
     return float(resultado)
